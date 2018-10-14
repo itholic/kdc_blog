@@ -25,7 +25,7 @@ SECRET_KEY = '-_ulll6=5o_+j5!s4na21+1!_wpu(b_+gi53z6a22078=l(z18'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', u'192.168.100.100']
+ALLOWED_HOSTS = ['127.0.0.1', u'192.168.100.100', 'itholic.pythonanywhere.com']
 
 
 # Application definition
