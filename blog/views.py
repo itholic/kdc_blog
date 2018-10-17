@@ -16,6 +16,7 @@ def post_detail(request, pk):
     post = get_object_or_404(Post, pk=pk)
     return render(request, 'blog/post_detail.html', {'post': post})
 
+# form을 처리하기 위한 view
 def post_new(request):
     if request.method == "POST":
         form = PostForm(request.POST)
